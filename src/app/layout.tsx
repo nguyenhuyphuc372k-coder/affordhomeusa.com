@@ -23,6 +23,14 @@ export const metadata: Metadata = {
   description:
     "Free home affordability calculator for Americans. Calculate how much house you can afford, compare mortgage rates, and explore cost of living by state.",
   metadataBase: new URL("https://affordhomeusa.com"),
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: [{ url: "/apple-icon.svg", type: "image/svg+xml" }],
+    shortcut: ["/icon.svg"],
+  },
   openGraph: {
     type: "website",
     siteName: "AffordHomeUSA",

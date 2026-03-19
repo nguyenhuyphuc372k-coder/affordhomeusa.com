@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title>AffordHomeUSA Apple icon</title>
+  <desc>A blue rounded square with a white house and a gold dollar symbol optimized for mobile bookmarks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="20" y1="16" x2="160" y2="164" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0ea5e9" />
+      <stop offset="1" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="160" height="160" rx="40" fill="url(#bg)" />
+  <path d="M50 84 90 50l40 34v49c0 4.42-3.58 8-8 8H58c-4.42 0-8-3.58-8-8V84Z" fill="#ffffff" />
+  <path d="M67 82h46v55H67z" fill="#e0f2fe" />
+  <path d="M58 86 90 58l32 28" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+  <path d="M90 80c-7.28 0-12.85 4.02-12.85 9.87 0 6.15 5.3 8.44 11.92 10.01 5.49 1.31 8.03 2.29 8.03 4.94 0 2.29-2.29 4.08-6.38 4.08-4.48 0-8.33-1.64-11.56-4.37l-5.58 6.66c4.04 3.49 8.97 5.54 14.33 6.08V123h6.38v-5.67c7.7-1.05 12.59-5.63 12.59-11.88 0-7.15-4.64-9.72-12.96-11.69-5.2-1.2-7.03-2.19-7.03-4.42 0-2.04 1.96-3.48 5.39-3.48 3.69 0 6.76 1.18 9.94 3.36l4.99-7.09c-3.69-2.75-7.71-4.4-12.5-4.95V71h-6.38v5.86Z" fill="#f59e0b" />
+</svg>
