@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     siteName: "AffordHomeUSA",
     locale: "en_US",
   },
+  verification: {
+    google: "OK793TPo05-kafj8cB9np2l3Wk-Mi9mO3D8JIKcp4eg",
+  },
   robots: { index: true, follow: true },
 };
 
