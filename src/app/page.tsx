@@ -1,9 +1,25 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Calculator, DollarSign, MapPin, TrendingUp, ChevronRight, ShieldCheck, LineChart, Map } from "lucide-react";
 import AdBanner from "@/components/AdBanner";
 import { featuredStates, statesData } from "@/lib/states-data";
 import { getBlogCategories, getSortedBlogPosts } from "@/lib/blog-data";
 import { formatCurrency } from "@/lib/utils";
+
+export const metadata: Metadata = {
+  title: "AffordHomeUSA – Home Affordability Calculator 2026",
+  description:
+    "Estimate home affordability, compare mortgage payments, and explore housing costs by state across the U.S. in 2026.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "AffordHomeUSA – Home Affordability Calculator 2026",
+    description:
+      "Estimate home affordability, compare mortgage payments, and explore housing costs by state across the U.S. in 2026.",
+    url: "/",
+  },
+};
 
 const tools = [
   {
@@ -22,7 +38,7 @@ const tools = [
     title: "By State",
     desc: "Cost of living by state",
     icon: MapPin,
-    href: "/states/california",
+    href: "/states",
   },
   {
     title: "Rent vs Buy",

@@ -8,6 +8,15 @@ export const metadata: Metadata = {
   title: "Home Buying Blog – Tips, Guides & Market Analysis",
   description:
     "Expert articles on home buying, mortgage rates, affordability tips, and market analysis for American home buyers in 2026.",
+  alternates: {
+    canonical: "/blog",
+  },
+  openGraph: {
+    title: "Home Buying Blog – Tips, Guides & Market Analysis",
+    description:
+      "Expert articles on home buying, mortgage rates, affordability tips, and market analysis for American home buyers in 2026.",
+    url: "/blog",
+  },
 };
 
 export default function BlogPage() {

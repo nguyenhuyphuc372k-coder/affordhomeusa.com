@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Editorial Policy",
   description:
     "Read AffordHomeUSA's editorial policy for housing content, calculator assumptions, content updates, and reader trust standards.",
+  alternates: {
+    canonical: "/editorial-policy",
+  },
 };
 
 export default function EditorialPolicyPage() {

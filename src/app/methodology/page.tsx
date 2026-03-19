@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Methodology",
   description:
     "Understand the affordability assumptions, debt-to-income approach, tax treatment, and scenario modeling used by AffordHomeUSA calculators and guides.",
+  alternates: {
+    canonical: "/methodology",
+  },
 };
 
 export default function MethodologyPage() {

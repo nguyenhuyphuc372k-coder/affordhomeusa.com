@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "About AffordHomeUSA",
   description:
     "Learn how AffordHomeUSA helps Americans estimate home affordability, compare mortgage scenarios, and research state-by-state housing costs.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {
